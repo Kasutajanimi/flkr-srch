@@ -1,0 +1,2 @@
+key: ENV['FLKR_KEY']
+secret: ENV['FLKR_SECRET']
