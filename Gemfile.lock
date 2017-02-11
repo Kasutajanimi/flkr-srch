@@ -59,6 +59,9 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.17)
+    flickr_fu (0.3.4)
+      mime-types
+      xml-magic
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     haml (4.0.7)
@@ -175,6 +178,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    xml-magic (0.1.1)
 
 PLATFORMS
   ruby
@@ -182,6 +186,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   coffee-rails (~> 4.2)
+  flickr_fu
   haml
   jbuilder (~> 2.5)
   jquery-rails
