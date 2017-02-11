@@ -4,7 +4,7 @@
   = @photo.try(:title)
 
 %table.table.table-striped
-  - if @photo.camera
+  - if @photo.try(:camera)
     %tr
       %td Camera
       %td
